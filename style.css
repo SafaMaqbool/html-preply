@@ -1,0 +1,98 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.myClass{
+    background-color: cadetblue;
+}
+
+#box{
+    background-color: blue;
+}
+
+.heading{
+    color: red;
+}
+
+
+.center{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+.box-model{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    line-height: 60px;
+   
+   
+}
+/* Navbar container styling */
+.my-div {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Distribute items evenly across */
+    background-color: black;
+    color: white;
+    padding: 15px 20px; /* Add spacing inside navbar */
+    margin-top: 20px; /* Space above the navbar */
+    border-radius: 5px; /* Optional: Rounds the corners */
+}
+
+/* Logo Styling */
+.logo {
+    color: orange;
+    font-size: 25px;
+    margin-right: 20px; /* Space between logo and nav links */
+    margin-top: 0; /* Ensure it sticks to the top */
+}
+
+/* Navigation Links Styling */
+.my-list {
+    display: flex;
+    justify-content: center; /* Center align links */
+    gap: 50px; /* Space between links */
+    flex-grow: 1; /* Make this section grow to take space */
+    margin: 0; /* Remove default margin */
+}
+
+/* List Items Styling */
+li {
+    list-style-type: none;
+}
+
+/* Button Styling */
+button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Search Bar Container */
+.btn-placeholder {
+    display: flex;
+    gap: 10px; /* Space between input and button */
+    margin-right: 10px; /* Space from right edge */
+}
+
+/* Input Box Styling */
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Add some spacing adjustments for better alignment */
+.my-div > * {
+    margin-top: 0; /* Ensure items align to the top */
+    margin-bottom: 0; /* Remove bottom margin */
+}
