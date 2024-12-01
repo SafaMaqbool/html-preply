@@ -96,3 +96,15 @@ input[type="text"] {
     margin-top: 0; /* Ensure items align to the top */
     margin-bottom: 0; /* Remove bottom margin */
 }
+.content-area{
+    width: 100px;
+    height: auto;
+    border: 10px solid red;
+    background-color: rgba(255,200,123,0.5);
+}
+.footer{
+    width: 100px;
+    height: 100px;
+    border: 10px solid blue;
+    background-color: rgb(207, 34, 100);
+}
