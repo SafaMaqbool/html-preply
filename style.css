@@ -108,3 +108,35 @@ input[type="text"] {
     border: 10px solid blue;
     background-color: rgb(207, 34, 100);
 }
+
+.practice-set-5{
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url('./shoe.jpeg');
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 200px;
+    top: 50%;
+    z-index: 2;
+   
+   
+}
+
+ul{
+    display: flex;
+   
+    justify-content: space-evenly;
+}
+
+.ps62{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+@media(min-width:300px ) and (max-width:400px)
+{
+    .my-div{
+        background-color: pink;
+    }
+}
