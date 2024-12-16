@@ -150,6 +150,15 @@ ul{
     animation: spin 1s linear infinite;
 
 }
+.blue{
+    color: blue;
+}
+.inherit{
+    color: inherit;
+}
+.initial{
+    color: initial;
+}
 
 @keyframes spin {
     from{
